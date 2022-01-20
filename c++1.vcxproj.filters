@@ -18,8 +18,5 @@
     <ClCompile Include="c++1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="E:\Documents\p\C++\projects\c++1.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

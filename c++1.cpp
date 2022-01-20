@@ -1,25 +1,26 @@
 ﻿// c++1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include <string>
 #include <iostream>
 #include <Windows.h>
-using namespace std;
 
 int main()
 
 {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     setlocale(LC_ALL, "Russian");
 
     int x;
-    char a;
+    std::string a;
 
-    cout << "укажи номер мема: ";
-    cin >> x;
+    std::cout << "укажи номер мема: ";
+    std::cin >> x;
 
-    cout << "объясни мем: ";
-    cin >> a;
+    std::cout << "объясни мем: ";
+    std::cin >> a;
 
-    cout << "мем под номером " << x << " означает " << a;
+    std::cout << "мем под номером " << x << " означает " << a;
 
     return 0;
 }
