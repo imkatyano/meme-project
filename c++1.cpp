@@ -2,21 +2,26 @@
 //
 
 #include <iostream>
+#include <Windows.h>
 using namespace std;
 
 int main()
+
 {
+    setlocale(LC_ALL, "Russian");
+
     int x;
     char a;
 
-    cout << "give the number of the meme: ";
+    cout << "укажи номер мема: ";
     cin >> x;
 
-    cout << "explain the meme: ";
+    cout << "объясни мем: ";
     cin >> a;
 
-    cout << x << " meme is a meme that means " << a;
+    cout << "мем под номером " << x << " означает " << a;
 
     return 0;
 }
 // как и сказано в учебнике, все буквы после первой буквы введеного пользователем значеия char не воспринимаются программой, поэтому на консоли их нет
+// ОШИБКА: если присваивать переменной а значение, написанное на кириллице, то оно не выводится
