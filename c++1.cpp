@@ -1,26 +1,25 @@
 ﻿// c++1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-#include <string>
+
 #include <iostream>
-#include <Windows.h>
+
+
 
 int main()
 
 {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    setlocale(LC_ALL, "Russian");
 
-    int x;
-    std::string a;
+    int apples;
+    //std::string a;
 
-    std::cout << "укажи номер мема: ";
-    std::cin >> x;
+    std::cout << "How much apple had you ate? " << std::endl;
+    std::cin >> apples;
 
-    std::cout << "объясни мем: ";
-    std::cin >> a;
+    if (apples > 3)
+    std::cout << "It's so much for you! Stop eating apples. Now take an allergy pill. You can buy it here: https://www.eapteka.ru/goods/id266618/";
+    
+    if (apples <= 3)
+    std::cout << "Thank you for your answer! Don't eat it too much. Bye!";
 
-    std::cout << "мем под номером " << x << " означает " << a;
 
     return 0;
 }
