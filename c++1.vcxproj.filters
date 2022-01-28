@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{43ce2001-3db4-45f9-b761-f1b3b36fe9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions\cpp">
+      <UniqueIdentifier>{422a7154-48f0-4661-a55c-856c15fcd8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions\h">
+      <UniqueIdentifier>{8091fd41-1ec7-4aed-bae9-c10671682f1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="c++1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="summa.cpp">
+      <Filter>functions\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="summa.h">
+      <Filter>functions\h</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
