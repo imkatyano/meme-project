@@ -3,12 +3,14 @@
 #include <iostream>
 #include <string>
 // #include "summa.h"
+#include "apples.h"
 
 
 int main()
 
 {
 
+/*
     int apples;
 
     std::cout << "How many apples do you have? " << std::endl;
@@ -31,6 +33,8 @@ int main()
     for (int i = 0; i < 10; i++) {
         std::cout << '\n';
     }
+    */
+    apple_programm::AppleFunction();
 
     return 0;
 }
@@ -48,4 +52,3 @@ int main()
 
     return 0;
 }*/
-// как и сказано в учебнике, все буквы после первой буквы введеного пользователем значеия char не воспринимаются программой, поэтому на консоли их нет

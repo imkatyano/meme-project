@@ -30,9 +30,15 @@
     <ClCompile Include="summa.cpp">
       <Filter>functions\cpp</Filter>
     </ClCompile>
+    <ClCompile Include="apples.cpp">
+      <Filter>functions\cpp</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="summa.h">
+      <Filter>functions\h</Filter>
+    </ClInclude>
+    <ClInclude Include="apples.h">
       <Filter>functions\h</Filter>
     </ClInclude>
   </ItemGroup>
