@@ -1,5 +1,5 @@
 #pragma once
 namespace apple_programm
 {
-	void AppleFunction(void);
+	int AppleFunction(void);
 }

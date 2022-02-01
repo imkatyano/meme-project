@@ -5,10 +5,14 @@
 // #include "summa.h"
 #include "apples.h"
 
+int apple_programm::AppleFunction();
 
 int main()
 
 {
+
+    int fruits { apple_programm::AppleFunction() };
+    std::cout << "But if you gave me 2, you will have " << fruits - 2 << ".\n";
 
 /*
     int apples;
@@ -34,7 +38,6 @@ int main()
         std::cout << '\n';
     }
     */
-    apple_programm::AppleFunction();
 
     return 0;
 }

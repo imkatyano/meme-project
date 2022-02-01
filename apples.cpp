@@ -1,7 +1,7 @@
 #include "apples.h"
 #include <iostream>
 
-void apple_programm::AppleFunction(void)
+int apple_programm::AppleFunction(void)
 {
     int apples;
     
@@ -22,7 +22,8 @@ void apple_programm::AppleFunction(void)
     std::cout << "Now you have " << eaten_apples << " apples. Take another one. Now you have "
         << available_apples << " apples." << std::endl;
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 5; i++) {
         std::cout << '\n';
     }
+    return available_apples;
 }
